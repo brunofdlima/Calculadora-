@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  outline: 0;
+}
+
+.container {
+  width: 18.75rem;
+  height: 21.25rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: #3385ff;
+}
+
+.buttons {
+  margin-top: 12.5rem;
+}
+
+.display {
+  width: 97%;
+  height: 1.875rem;
+  margin-bottom: 2.5rem;
+}
+
+.btn-eq , .btn-del , .btn-num , .btn-erase {
+  width: 3.75rem;
+  height: 1.875rem;
+  font-size: 1.3em;
+  border: none;
+  transition: .4s;
+}
+
+.btn-eq:hover , .btn-del:hover , .btn-erase:hover , .btn-num:hover {
+  cursor: pointer;
+  background-color: #bfbfbf;
+}
