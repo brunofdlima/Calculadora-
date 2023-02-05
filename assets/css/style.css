@@ -6,10 +6,12 @@
 .container {
   width: 18.75rem;
   height: 21.25rem;
+  margin: 10% auto;
   display: flex;
   flex-direction: column;
   text-align: center;
   background-color: #3385ff;
+  border-radius: 10px;
 }
 
 .buttons {
@@ -19,18 +21,27 @@
 .display {
   width: 97%;
   height: 1.875rem;
+  border: none;
+  border-radius: 10px;
   margin-bottom: 2.5rem;
 }
 
-.btn-eq , .btn-del , .btn-num , .btn-erase {
-  width: 3.75rem;
-  height: 1.875rem;
+.btn-eq,
+.btn-del,
+.btn-num,
+.btn-erase {
+  width: 60px;
+  height: 30px;
   font-size: 1.3em;
   border: none;
-  transition: .4s;
+  border-radius: 10px;
+  transition: 0.4s;
 }
 
-.btn-eq:hover , .btn-del:hover , .btn-erase:hover , .btn-num:hover {
+.btn-eq:hover,
+.btn-del:hover,
+.btn-erase:hover,
+.btn-num:hover {
   cursor: pointer;
   background-color: #bfbfbf;
 }
